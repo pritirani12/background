@@ -1,0 +1,60 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Raleway", sans-serif;
+    transition: all  0.3s ease-in linear;
+}
+
+body{
+    background-color: var(--mainwhite);
+}
+
+:root{
+    --mainwhite:#f2fdff;
+    --mainGreen:#3e92cc;
+}
+
+.container{
+    width:100%;
+    height:100vh;
+    background-color: var(--mainBlack);
+    flex-direction: column;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.image-container{
+ width:500px;
+ height:500px;
+ background: url(../img/blog-1.jpg);
+ background-repeat: no-repeat;
+ background-size: cover;
+ background-position: center;
+ border: 0.4rem solid var(--mainGreen);
+ position: relative;
+ cursor: pointer;
+}
+
+.btn-left{
+    position: absolute;
+    top:50%;
+    left: 0;
+    font-size: 2rem;
+    background-color: var(--mainGreen);
+    padding: 10px;
+    color:#fff;
+}
+.btn-right{
+    position: absolute;
+    top:47%;
+    right: 0;
+    font-size: 2rem;
+    background-color: var(--mainGreen);
+    padding: 10px;
+    color:#fff;
+}
+
